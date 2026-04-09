@@ -17,7 +17,7 @@ public class Developer {
 
     public static String getName() {
 
-        return "Joaquin D";
+        return "JOAQUIN RAMON";
     }
 
     /**
@@ -33,15 +33,15 @@ public class Developer {
      * Get the developers team
      * @return developers team as a Java object
      */
-    
+
     public static Team getTeam() {
         Team team = new Team("s26-05");
-        team.addMember("Joaquin D");
-        team.addMember("Soome");
-        team.addMember("Elissa");
-        team.addMember("Alexia");
-        team.addMember("John K");
-        team.addMember("Ibrahim");
+        team.addMember("JOAQUIN RAMON");
+        team.addMember("SOOME");
+        team.addMember("ELISSA EYAD");
+        team.addMember("ALEXIA");
+        team.addMember("JOHN MIN-GYU");
+        team.addMember("IBRAHIM");
         return team;
     }
 }
